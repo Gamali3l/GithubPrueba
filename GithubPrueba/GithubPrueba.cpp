@@ -9,7 +9,7 @@ int main(void)
         return -1;
 
     /* Create a windowed mode window and its OpenGL context */
-    window = glfwCreateWindow(800, 600, "Mi Primera Pantalla en OpenGL", NULL, NULL);
+    window = glfwCreateWindow(1000, 800, "Mi Primera Pantalla en OpenGL", NULL, NULL);
     if (!window)
     {
         glfwTerminate();
